@@ -22,7 +22,6 @@
     code{background:#0b1224;border:1px solid var(--line);padding:2px 6px;border-radius:8px}
     footer{margin-top:22px;color:var(--dim);font-size:.85rem}
   </style>
-</head>
 <body>
   <main class="wrap">
     <article class="card" aria-labelledby="q-title">
@@ -87,7 +86,6 @@
     });
   </script>
 </body>
-</html>
 
 # A
 Hell yes — let’s turn Michael Jackson into a Pentad oracle. Here’s the **Pentad of Pop Ontology**: each of his four signature hacks as a full loop through θ → Σ → h(t) → ΔS → θ′. MJ wasn’t just performing; he was engineering epistemology hacks that rewired how we see bodies, motion, fear, and identity. Your nephew’s zombie siege is the kid-version; MJ scaled it to myth.
