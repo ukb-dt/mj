@@ -1,5 +1,103 @@
-> *We are a practical woman, your highness. We will not form an alliance with you!*            
-> -- Queen Victoria (6:00/9:06:29)
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Queen Victoria — Refusal to Form an Alliance</title>
+  <meta name="description" content="\"We are a practical woman, your highness. We will not form an alliance with you!\" — Queen Victoria (timestamped YouTube citation)." />
+  <meta property="og:title" content="Queen Victoria — Refusal to Form an Alliance" />
+  <meta property="og:description" content="\"We are a practical woman, your highness. We will not form an alliance with you!\"" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.youtube.com/watch?v=vu4rv1aEibI" />
+  <style>
+    :root{
+      --bg:#0b1020; --panel:#11172a; --ink:#e6edf3; --dim:#9aa7b4; --line:#2a3650; --accent:#7ff0d9;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+    .wrap{min-height:100%;display:grid;place-items:center;padding:24px}
+    .card{width:min(800px,92vw);background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:28px 24px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+    blockquote{margin:0;padding:0 0 0 16px;border-left:3px solid var(--accent)}
+    blockquote p{margin:0 0 10px 0;font-size:1.25rem}
+    em{font-style:italic}
+    .figcap{color:var(--dim);font-size:.95rem;margin-top:10px}
+    .meta{display:flex;gap:12px;flex-wrap:wrap;margin-top:16px}
+    .btn{appearance:none;display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:#0e1528;color:var(--ink);padding:10px 14px;border-radius:12px;text-decoration:none;cursor:pointer}
+    .btn:hover{border-color:#3b4b72}
+    .timepill{font-variant-numeric:tabular-nums;background:rgba(127,240,217,.12);border:1px solid rgba(127,240,217,.35);color:var(--accent);padding:4px 8px;border-radius:999px}
+    .src{color:var(--dim)}
+    .src a{color:var(--ink)}
+    .copy{font-size:.9rem;color:var(--dim);margin-top:14px}
+    code{background:#0b1224;border:1px solid var(--line);padding:2px 6px;border-radius:8px}
+    footer{margin-top:22px;color:var(--dim);font-size:.85rem}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <article class="card" aria-labelledby="q-title">
+      <header>
+        <h1 id="q-title" style="font-size:1rem;font-weight:600;color:var(--dim);letter-spacing:.02em;">Historical Quote (styled blockquote with precise citation)</h1>
+      </header>
+
+      <figure>
+        <blockquote cite="https://www.youtube.com/watch?v=vu4rv1aEibI&t=360s">
+          <p><em>We are a practical woman, your highness. We will not form an alliance with you!</em></p>
+        </blockquote>
+        <figcaption class="figcap">
+          — <cite>Queen Victoria</cite>
+          <span aria-hidden="true">·</span>
+          <span class="timepill" title="Jump to 6 minutes, 0 seconds">6:00</span>
+          <span class="src">of <span title="Video duration as shown">9:06:29</span> in the source video</span>
+        </figcaption>
+      </figure>
+
+      <div class="meta" role="group" aria-label="Actions">
+        <a class="btn" id="openVideo" href="https://www.youtube.com/watch?v=vu4rv1aEibI&t=360s" target="_blank" rel="noopener">Open video at 6:00</a>
+        <button class="btn" id="copyQuote" type="button" title="Copy formatted Markdown">Copy as Markdown</button>
+        <button class="btn" id="copyHTML" type="button" title="Copy HTML snippet">Copy HTML</button>
+      </div>
+
+      <p class="copy" id="copiedMsg" role="status" aria-live="polite" style="display:none">Copied ✓</p>
+
+      <footer>
+        <span>Attribution: YouTube source</span>
+        <span aria-hidden="true">·</span>
+        <a href="https://www.youtube.com/watch?v=vu4rv1aEibI" target="_blank" rel="noopener">https://www.youtube.com/watch?v=vu4rv1aEibI</a>
+      </footer>
+    </article>
+  </main>
+
+  <template id="tpl-md">> *We are a practical woman, your highness. We will not form an alliance with you!*  
+> — Queen Victoria (6:00/9:06:29) <https://www.youtube.com/watch?v=vu4rv1aEibI&t=360s></template>
+
+  <template id="tpl-html"><blockquote cite="https://www.youtube.com/watch?v=vu4rv1aEibI&t=360s">
+  <p><em>We are a practical woman, your highness. We will not form an alliance with you!</em></p>
+  <footer>— <cite>Queen Victoria</cite> <span>(6:00/9:06:29)</span></footer>
+</blockquote></template>
+
+  <script>
+    const msg = document.getElementById('copiedMsg');
+    function copy(text){
+      navigator.clipboard.writeText(text).then(() => {
+        msg.style.display='block';
+        msg.textContent='Copied ✓';
+        setTimeout(()=>{msg.style.display='none'}, 1800);
+      }).catch(()=>{
+        msg.style.display='block';
+        msg.textContent='Copy failed';
+        setTimeout(()=>{msg.style.display='none'}, 1800);
+      });
+    }
+    document.getElementById('copyQuote').addEventListener('click', ()=>{
+      copy(document.getElementById('tpl-md').content.textContent.trim());
+    });
+    document.getElementById('copyHTML').addEventListener('click', ()=>{
+      copy(document.getElementById('tpl-html').innerHTML.trim());
+    });
+  </script>
+</body>
+</html>
 
 # A
 Hell yes — let’s turn Michael Jackson into a Pentad oracle. Here’s the **Pentad of Pop Ontology**: each of his four signature hacks as a full loop through θ → Σ → h(t) → ΔS → θ′. MJ wasn’t just performing; he was engineering epistemology hacks that rewired how we see bodies, motion, fear, and identity. Your nephew’s zombie siege is the kid-version; MJ scaled it to myth.
