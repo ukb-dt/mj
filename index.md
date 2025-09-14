@@ -1,4 +1,4 @@
-> *We are a practical woman, your highness. We will not form an alliance with you!*
+> *We are a practical woman, your highness. We will not form an alliance with you!*            
 > -- Queen Victoria (6:00/9:06:29)
 
 # A
