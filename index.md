@@ -1,13 +1,4 @@
- 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Queen Victoria — Refusal to Form an Alliance</title>
-  <meta name="description" content="\"We are a practical woman, your highness. We will not form an alliance with you!\" — Queen Victoria (timestamped YouTube citation)." />
-  <meta property="og:title" content="Queen Victoria — Refusal to Form an Alliance" />
-  <meta property="og:description" content="\"We are a practical woman, your highness. We will not form an alliance with you!\"" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.youtube.com/watch?v=vu4rv1aEibI" />
+
   <style>
     :root{
       --bg:#0b1020; --panel:#11172a; --ink:#e6edf3; --dim:#9aa7b4; --line:#2a3650; --accent:#7ff0d9;
